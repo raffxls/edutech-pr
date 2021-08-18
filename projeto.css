@@ -1,0 +1,53 @@
+body {
+	background: lightgrey;
+	font-size: 18px;
+	color: black;
+ }
+
+nav {
+	padding-left: 980px
+}
+
+ nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 19px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+ h1 {
+	text-align: center;
+	color: #00009e;
+	font-size: 39px;
+}
+
+p {
+	text-align: center;
+}
+
+h2 {
+	padding-left: 41px;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0;
+}
