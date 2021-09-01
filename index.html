@@ -1,152 +1,85 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Alurinha | Cursos online</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/flexbox.css">
-</head>
-<body>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Barberia Alura</title>
 
-	<header class="cabecalhoPrincipal">
-		<div class="container">
-			<h1 class="cabecalhoPrincipal-titulo">
-				<a href="#">Alurinha</a>
-			</h1>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
 
-			<nav class="cabecalhoPrincipal-nav">
-				<a class="cabecalhoPrincipal-nav-link" href="#">Home</a>
-				<a class="cabecalhoPrincipal-nav-link" href="#">Cursos</a>
-				<a class="cabecalhoPrincipal-nav-link" href="#">Sobre nós</a>
-				<a class="cabecalhoPrincipal-nav-link" href="#">Contato</a>
-				<a class="cabecalhoPrincipal-nav-link cabecalhoPrincipal-nav-link-app" href="#">Nosso APP</a>
-			</nav>
-		</div>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">	
+	
+	</head>
+	
+	<body>
+		<header>
 
-	</header>
+			<div class="caixa">
+				<h1><img src="logo.png"></h1>
 
-	<main class="conteudoPrincipal">
-		<div class="container">
-			<h2 class="subtitulo">Nossos cursos</h2>
-
-			<nav>
-				<ul class="conteudoPrincipal-cursos">
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Java</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">PHP</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Ruby on Rails</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">.NET</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Pascal</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Flexbox</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Desenvolvimento Web</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Java Web</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Javascript</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">AngularJS</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">TDD com C</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Redes de computadores</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">MySQL</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">MariaDB</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Postegres</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Lógica de programação</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Lógica de programação</a></li>
-					<li class="conteudoPrincipal-cursos-link"><a href="#">Lógica de programação</a></li>
-				</ul>
-			</nav>
-		</div>
-
-		<section class="videoSobre">
-			<div class="container">
-				<iframe class="videoSobre-video" width="560" height="315" src="https://www.youtube.com/embed/bIlOsJzBVaY?list=PLh2Y_pKOa4UcF1BYPJR3EIMRi3nWAUxIp" frameborder="0" allowfullscreen></iframe>
-				
-				<div class="videoSobre-sobre">
-					<h2 class="videoSobre-sobre-title">Vantagens do Alurinha</h2>
-					<ul class="videoSobre-sobre-list">
-						<li class="videoSobre-sobre-item">Estude onde quiser</li>
-						<li class="videoSobre-sobre-item">Novos cursos todos os meses</li>
-						<li class="videoSobre-sobre-item">Cursos compatíveis com o mercado</li>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
 					</ul>
-					<button class="videoSobre-button">Cadastre-se já</button>
-				</div>
-			</div>
-		</section>
-
-	</main>
-
-	<footer class="rodapePrincipal">
-		<div class="container">
-
-			<section class="rodapePrincipal-navMap">
-				<h3 class="subtitulo">Mapa de cursos</h3>
-				<nav class="rodapePrincipal-navMap-list">
-
-					<h4 class="navmap-list-title navmap-list-title-backend">Linguagens Backend</h4>
-					<a class="rodapePrincipal-navMap-link" href="#">Java</a>
-					<a class="rodapePrincipal-navMap-link" href="#">PHP</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Pascal</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Scala</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Python</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Java Web</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Assembly</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Lógica de programação</a>
-
-					<h4 class="navmap-list-title navmap-list-title-frontend">Linguagens Frontend</h4>
-					<a class="rodapePrincipal-navMap-link" href="#">Flexbox</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Desenvolvimento Web</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Javascript</a>
-					<a class="rodapePrincipal-navMap-link" href="#">AngularJS</a>
-					<a class="rodapePrincipal-navMap-link" href="#">ReactJS</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Polymer</a>
-					
-					<h4 class="navmap-list-title navmap-list-title-framework">Frameworks</h4>
-					<a class="rodapePrincipal-navMap-link" href="#">Ruby on Rails</a>
-					<a class="rodapePrincipal-navMap-link" href="#">VRaptor</a>
-					<a class="rodapePrincipal-navMap-link" href="#">SpringMVC</a>
-					<a class="rodapePrincipal-navMap-link" href="#">NodeJS</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Django</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Bootstrap3</a>
-
-					<h4 class="navmap-list-title navmap-list-title-bancoDeDados">Banco de dados</h4>
-					<a class="rodapePrincipal-navMap-link" href="#">MySQL</a>
-					<a class="rodapePrincipal-navMap-link" href="#">MariaDB</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Postegres</a>
-
 				</nav>
+			</div>
+
+		</header>
+
+		<img class= "banner" src="banner.png">
+
+		<main>
+			<section class="principal">
+				<h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+
+				<img class="utensilios" src="utensilios.jpg" alt="Utensilios de um barbeiro">
+
+				<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+
+				<p id="missao">Nossa missão é: <strong><em>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+
+				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo 	qualidade e satisfação dos nossos clientes.</p>
 			</section>
 
-		</div>
+			<section class="mapa">
+				<h3 class="titulo-principal">Nosso estabelecimento</h3>
+				<p>Nosso estabelecimento está localizado no coração da cidade.</p>
 
-		<section class="rodapePrincipal-patrocinadores">
-			<div class="container">
-				<ul class="rodapePrincipal-patrocinadores-list">
-					<li>
-						<a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-alura" href="#">
-							<img src="img/logos/alura.svg" alt="Logo da Alura">
-						</a>
-					</li>
-					<li>
-						<a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-caelum" href="#">
-							<img src="img/logos/caelum.svg" alt="Logo da Caelum">
-						</a>
-					</li>
-					<li>
-						<a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-casaDoCodigo" href="#">
-							<img src="img/logos/cdc.svg" alt="Logo da Casa do Código">
-						</a>
-					</li>
-				</ul>
-				<form class="rodapePrincipal-contatoForm" action="#">
-					<fieldset>
-						<legend class="rodapePrincipal-contatoForm-legend" for="email-contato">Entre em contato conosco</legend>
-						<div class="rodapePrincipal-contatoForm-fieldset"> 
-							<input class="rodapePrincipal-contatoForm-emailInput" type="email" name="email-contato" id="email-contato">
-							<button class="rodapePrincipal-contatoForm-submit" type="submit">Enviar</button>
-						</div>
-					</fieldset>
-				</form>
-			</div>
-		</section>
-	</footer>
+				<div class="mapa-conteudo">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.448598130907!2d-46.634653385542414!3d-23.588239368469353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1580916426151!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</div>
 
-</body>
+			</section>
+	
+			<section class="beneficios">
+				<h3 class="titulo-principal">Benefícios</h3>
+
+				<div class="conteudo-beneficios">
+					<ul class="lista-beneficios">
+						<li class="itens">Atendimento aos clientes</li>
+						<li class="itens">Espaço diferenciado</li>
+						<li class="itens">Localização</li>
+						<li class="itens">Profissionais qualificados</li>
+						<li class="itens">Pontualidade</li>
+						<li class="itens">Limpeza</li>
+					</ul><img src="beneficios.jpg" class="imagem-beneficios">
+				</div>
+
+				<div class="video">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+	
+			</section>
+		</main>
+
+		<footer>
+			<img src="logo-branco.png"> 
+			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+		</footer>
+
+	</body>
+
 </html>
